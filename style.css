@@ -1,0 +1,176 @@
+/* Variables Name */
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --darkRaspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --roseWhite: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --lightGrey: hsl(30, 18%, 87%);
+  --wengeBrown: hsl(30, 10%, 34%);
+  --darkCharcoal: hsl(24, 5%, 18%);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", system-ui;
+}
+
+/* Primary Style */
+body {
+  font-size: 16px;
+  background-color: var(--eggshell);
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 1rem;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  color: var(--darkCharcoal);
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+h2 {
+  color: var(--nutmeg);
+  font-size: 1.5rem;
+}
+strong {
+  color: var(--wengeBrown);
+  font-weight: 700;
+}
+p,
+li {
+  color: var(--wengeBrown);
+  font-weight: 400;
+  line-height: 2rem;
+}
+hr {  
+  color: var(--lightGrey);
+  opacity: 0.5;
+  margin: 2rem 0;
+}
+
+/* Container Style */
+
+.container-box {
+  width: 40rem;
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  margin: 5rem 0;
+}
+.imageHolder {
+  padding: 2rem 2rem 0 2rem;
+}
+.container {
+  padding: 0 2rem 2rem 2rem;
+}
+
+/* Content Style */
+
+.prepTime {
+  background-color: var(--roseWhite);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+.prepTime h2 {
+  color: var(--darkRaspberry);
+}
+.prepTime strong {
+  margin-left: 0.8rem;
+}
+.prepTime li {
+  list-style-position: inside;
+  margin-left: 0.5rem;
+}
+.prepTime li::marker {
+  font-size: 0.8rem;
+  color: var(--darkRaspberry);
+}
+.ingredient li {  
+  margin-left: 1.5rem;
+}
+.ingredient li::marker {
+  font-size: 0.8rem;
+  color: var(--nutmeg);
+}
+.ingredient span {
+  margin-left: 0.8rem;
+}
+.instruction li {
+  margin-left: 1.5rem;
+}
+.instruction li::marker {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
+.align {
+  margin-left: 0.8rem;
+}
+.nutrition table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.nutrition tr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--lightGrey);
+}
+.nutrition tr:last-child {
+  border-bottom: none;
+}
+.nutrition-name {
+  color: var(--wengeBrown);
+}
+.nutrition-value {
+  color: var(--nutmeg);
+  font-weight: 700;
+}
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+  .container-box {
+    width: 100%;
+    border-radius: 0;    
+    margin: 0;
+  }
+  .imageHolder {
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .attribution {
+    background-color: var(--white);
+  }
+}
