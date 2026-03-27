@@ -26,6 +26,8 @@ body {
 .main {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
   max-width: 100%;
@@ -74,8 +76,6 @@ hr {
   width: 40rem;
   background-color: var(--white);
   border-radius: 0.5rem;
-  justify-content: center;
-  align-items: center;
 }
 .imageHolder {
   padding: 1rem;
