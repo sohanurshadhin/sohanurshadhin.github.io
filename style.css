@@ -75,101 +75,11 @@ hr {
 .container-box {
   width: 40rem;
   background-color: var(--white);
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
 }
 .imageHolder {
-  padding: 2rem 2rem 0 2rem;
+  padding: 1rem;
 }
 .container {
-  padding: 0 2rem 2rem 2rem;
-}
-
-/* Content Style */
-
-.prepTime {
-  background-color: var(--roseWhite);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  margin: 2rem 0;
-}
-.prepTime h2 {
-  color: var(--darkRaspberry);
-}
-.prepTime strong {
-  margin-left: 0.8rem;
-}
-.prepTime li {
-  list-style-position: inside;
-  margin-left: 0.5rem;
-}
-.prepTime li::marker {
-  font-size: 0.8rem;
-  color: var(--darkRaspberry);
-}
-.ingredient li {  
-  margin-left: 1.5rem;
-}
-.ingredient li::marker {
-  font-size: 0.8rem;
-  color: var(--nutmeg);
-}
-.ingredient span {
-  margin-left: 0.8rem;
-}
-.instruction li {
-  margin-left: 1.5rem;
-}
-.instruction li::marker {
-  color: var(--nutmeg);
-  font-weight: 600;
-}
-.align {
-  margin-left: 0.8rem;
-}
-.nutrition table {
-  border-collapse: collapse;
-  width: 100%;
-}
-.nutrition tr {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 1rem 2rem;
-  border-bottom: 1px solid var(--lightGrey);
-}
-.nutrition tr:last-child {
-  border-bottom: none;
-}
-.nutrition-name {
-  color: var(--wengeBrown);
-}
-.nutrition-value {
-  color: var(--nutmeg);
-  font-weight: 700;
-}
-.attribution {
-  font-size: 1rem;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-/* Responsive Design */
-
-@media screen and (max-width: 600px) {
-  .container-box {
-    width: 100%;
-    border-radius: 0;    
-    margin: 0;
-  }
-  .imageHolder {
-    padding: 0;
-  }
-  img {
-    max-width: 100%;
-    border-radius: 0;
-  }
-  .attribution {
-    background-color: var(--white);
-  }
+  padding: 1rem;
 }
