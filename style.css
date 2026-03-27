@@ -20,7 +20,7 @@
 
 /* Primary Style */
 body {
-  width: 1000px;
+  width: 100%;
   font-size: 16px;
   background-color: var(--eggshell);
 }
