@@ -67,7 +67,7 @@ li {
 hr {  
   color: var(--lightGrey);
   opacity: 0.5;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 /* Container Style */
@@ -81,5 +81,5 @@ hr {
   padding: 1rem;
 }
 .container {
-  padding: 0 1rem 0;
+  padding: 1rem;
 }
